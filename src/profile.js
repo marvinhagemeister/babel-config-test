@@ -41,7 +41,7 @@ const babel = require("@babel/core");
     });
 
     // Do something with return value so that v8 doesn't think
-    // that the loop doesn nothing.
+    // that the loop does nothing.
     out.push(res.code);
 
     // Simulate bundler doing other stuff in between
